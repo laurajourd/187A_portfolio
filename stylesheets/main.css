@@ -1,0 +1,181 @@
+/*Home page*/
+
+body.index {
+        background: url(../images/background2.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+.container{
+	margin: auto;
+	position: relative;
+}
+
+/*pour la barre de menu*/
+#navigation{
+    position:absolute;
+    top:20px;
+    right:30px;
+    width:50%;
+    background: #DCDCDC;
+} 
+
+#navigation li{
+    float: left;
+    margin-right: 5px;
+    font: 16px italic Verdana, sans serif;
+    
+}
+
+#navigation li a{
+    display: block;
+    background-color: #DCDCDC;
+    border: 1px solid #DCDCDC;
+    padding: .5em;
+    color: #000000;
+}
+
+#navigation li a:hover{
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+}
+
+/*pour placement text*/
+#lowered{
+    margin: 100px 20px 20px 20px;
+    font-family: cambria, verdana;
+    color: #ffffff;
+    width:380px;
+    font-size: medium;
+}
+
+#lowered p{
+    font-size: medium;
+}
+
+ 
+/*pour placement image*/
+.lowered2{
+	margin-top: 30px;
+        margin-bottom:10px;
+        margin-left: 20px;
+}
+ 
+/*pour centrer footer*/
+.center{
+	text-align:center;
+        color: #ffffff;
+        margin-top: 15px;
+        font-weight: bold;
+}
+
+/*pour le titre position*/
+#placement{
+    margin-top: 15px;  
+}
+
+h1.color{
+   color: #F5F5DC; 
+}
+
+/*title page*/
+body.page {
+        background: url(../images/background4.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+#position{
+    position:absolute;
+    top: 20px;
+    left: 50px;
+    font-size: medium;
+    font: 16px italic Verdana, sans serif;
+}
+
+#color{
+    color: #F5F5DC; 
+}
+
+.span-one-third{
+    margin-top: 15px;
+}
+
+.border3{
+    border: 1px solid;
+    width: 288px;
+    height: 22px;
+    padding: 5px;
+    text-align:center;
+    
+}
+
+
+
+/*Contact page*/
+
+#cadre{
+    border: 3px solid;
+    margin-top:20px;
+    text-align:center;
+    padding: 10px 10px 10px 10px;
+    font-family: Verdana, sans serif;
+}
+
+
+
+/*project1 page*/
+#organisation{
+    border: 3px solid;
+    margin-top:20px;
+    padding: 10px 10px 10px 10px;
+    font-family: Verdana, sans serif;
+}
+
+.border{
+    border: 1px solid;
+    width: 288px;
+    height: 314px;
+    padding: 5px;
+}
+
+.border2{
+    border: 1px solid;
+    padding: 5px;
+    width: 607px;
+    margin-top:15px;
+    height: 207px;
+    
+}
+
+#link{
+    color: #008000;
+}
+
+.border4{
+    border: 1px solid;
+    width: 288px;
+    height: 160px;
+    padding: 5px;
+}
+
+.border5{
+    border: 1px solid;
+    padding: 5px;
+    width: 607px;
+    margin-top:15px;
+    height: 202px;
+    
+}
+
+#color2{
+    color: #ffffff;
+}
+
+
+
